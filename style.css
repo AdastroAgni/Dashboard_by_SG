@@ -1,0 +1,70 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+
+    height: 100vh;
+}
+
+
+.nav{
+    width: 132px;
+    height: 852px;
+    margin-top: 24.02px;
+    margin-left: 32.34px;
+    background-color: #0C0B0B;
+    border-radius: 24px;
+}
+
+
+
+
+.nav_icon{
+    width: 26px; 
+    height: 26px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav_icon__home{
+    background-image: url('./img/home.svg');
+    align-items: center;
+    
+}
+
+.nav_icon__stud{
+    background-image: url('./img/student.svg');
+}
+
+.nav_icon__mail{
+    background-image: url('./img/mail.svg');
+}
+
+.nav_icon__user{
+    background-image: url('./img/user.svg');
+}
+
+.nav_icon__setting{
+    background-image: url('./img/settings.svg');
+}
+
+.nav_icon__logout{
+    background-image: url('./img/logout.svg');
+}
+
+
+
+.container{
+    width: 50vw;
+    height: 100%;
+
+    background-color: blue;
+}
+
+
+.aside{
+    width: 30vw;
+    height: 100%;
+    background-color: red;
+}
