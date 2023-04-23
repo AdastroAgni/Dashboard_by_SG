@@ -7,17 +7,15 @@
 
 
 .nav{
-    width: 20vw;
+
+    width: 10vw;
     height: 100%;
 
     background-color: black;
     border-radius: 24px;
-    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3)
 }
 
-.nav:hover{
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3)
-}
+
 
 
 .nav_icon{
@@ -27,6 +25,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
 .nav_icon__logo{
@@ -60,7 +59,7 @@
 
 
 
-.container{
+/* .container{
     width: 50vw;
     height: 100%;
 
@@ -72,4 +71,7 @@
     width: 30vw;
     height: 100%;
     background-color: red;
-}
+} */
+
+
+
