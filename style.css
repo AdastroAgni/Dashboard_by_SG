@@ -95,19 +95,45 @@ a{
 
 
 
-/* .container{
+/* Second ===============================================================*/
+
+.container{
     width: 50vw;
     height: 100%;
+    margin-left: 71px;
+    margin-right: 63px;
 
     background-color: blue;
 }
 
+.entry{
+    
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 200px;
+    background-color: #F5F5F7;
+    border-radius: 14px;
+}
+
+.entry .entry__title h1{
+    font-family: 'Baloo Bhai';
+}
+.entry .entry__title p{
+    font-family: 'Roboto';
+}
+
+
+
+
+
+/* Third ======================================================================== */
 
 .aside{
-    width: 30vw;
+    width: 50vw;
     height: 100%;
     background-color: red;
-} */
+}
 
 
 
