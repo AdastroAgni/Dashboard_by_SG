@@ -152,6 +152,8 @@ a{
 .entry__language-block{
     background-color: #F5F5F7;
     border-radius: 14px;
+    width: 500px;
+    height: 80px;
 }
 
 .entry__language, .entry__language-block, .entry__nav{
@@ -170,12 +172,29 @@ a{
     align-content: center;
 }
 
+.entry__language_bar-img{
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+    background-image: url(img/ellipse.svg);
+    background-repeat: no-repeat;
+}
 
 .entry_language-button{
     width: 120px;
     height: 40px;
     background-color: black;
     border-radius: 8px;
+}
+
+
+.entry__language-title h1{
+    font-family: 'Baloo Bhai';
+    font-size: 16px;
+}
+.entry__language-title p{
+    font-family: 'Roboto';
+    font-size: 13px;
 }
 
 .entry_language-button p{
