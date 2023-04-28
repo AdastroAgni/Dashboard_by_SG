@@ -102,12 +102,9 @@ a{
     height: 100%;
     margin-left: 71px;
     margin-right: 63px;
-
-    background-color: blue;
 }
 
 .entry{
-    
     display: flex;
     flex-direction: row;
     width: 40vw;
@@ -152,7 +149,7 @@ a{
 .entry__language-block{
     background-color: #F5F5F7;
     border-radius: 14px;
-    width: 500px;
+    width: 33.9vw;
     height: 80px;
 }
 
@@ -176,8 +173,12 @@ a{
     width: 40px;
     height: 40px;
     padding: 10px 10px;
-    background-image: url(img/ellipse.svg);
+    background-image:  url('img/ellipse.svg');
     background-repeat: no-repeat;
+}
+.entry_language-button img{
+    width: 100%;
+    z-index: 2;
 }
 
 .entry_language-button{
@@ -206,6 +207,14 @@ a{
     text-align: center;
     padding-top: 11px;
     color: white;
+}
+
+.entry__nav_icon{
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.entry__nav_icon-left{
+
 }
 
 
