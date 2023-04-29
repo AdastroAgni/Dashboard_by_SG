@@ -1,5 +1,6 @@
 *{
-    margin: 5px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -8,25 +9,22 @@
 .main{
     display: flex;
     justify-content: space-between;
-    
     height: 100vh;
 }
 
 
 .nav{
-    
-    
-    width: 132px;
+    width: 6vw;
     height: 100vh;
+    border-radius: 24px;
+    background-color: black;   
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     
-    box-shadow: 10px 5px 20px 1px;
-    background-color: black;
-    border-radius: 24px;
+    box-shadow: 10px 5px 20px 1px gray;
 }
 
 
@@ -98,121 +96,128 @@ a{
 /* Second ===============================================================*/
 
 .container{
-    width: 50vw;
-    height: 100%;
-    margin-left: 71px;
-    margin-right: 63px;
+    width: 30vw;
+    height: 100vh;
+    margin-top: 30px;
+
+
 }
 
+/* Hello Josh! */
 .entry{
     display: flex;
     flex-direction: row;
-    width: 40vw;
-    height: 18.4vh;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+    height: 15vh;
     background-color: #F5F5F7;
     border-radius: 14px;
 }
 
 .entry__title{
-
-    padding-left: 90px;
-    padding-top: 40px;
+    margin-left: -70px;
 }
-
-.entry .entry__title h1{
+.entry__title h1{
     font-family: 'Baloo Bhai';
-
 }
-.entry .entry__title p{
+.entry__title p{
     font-family: 'Roboto';
-    text-align: center;
 }
-
+.entry__title{
+}
 .entry__user{
-    margin-left: 250px;
+    display: flex;
+    align-self: flex-end;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.entry__language-block{
-    background-color: #F5F5F7;
-    border-radius: 14px;
-    width: 33.9git vw;
-    height: 80px;
-}
-
-.entry__language, .entry__language-block, .entry__nav{
+/* Spanish B2 by Alejandro Velazquez */
+.entry__language{
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
 }
 
-.entry__language-icon-back{
-    height: 64px;
-    width: 64px;
-    background-color: #FFFFFF;
-    border-radius: 12px;
+.entry__language-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F7;
+    width: 24vw;
+    height: 8vh;
+    border-radius: 14px;
+    margin-top: 24px;
 }
+
 .entry__language-icon{
-    align-content: center;
+    margin: 8px 24px 8px 8.5px;
 }
 
-.entry__language_bar-img{
-    width: 40px;
-    height: 40px;
-    padding: 10px 10px;
-    background-image:  url('img/ellipse.svg');
-    background-repeat: no-repeat;
+.entry__language-title{
+    margin: 0 20px 0 -20px;
 }
-.entry_language-button img{
-    width: 100%;
-    z-index: 2;
-}
-
-.entry_language-button{
-    width: 120px;
-    height: 40px;
-    background-color: black;
-    border-radius: 8px;
-}
-
-
 .entry__language-title h1{
-    font-family: 'Baloo Bhai';
+    font-family: "Baloo Bhai";
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 26px;
 }
 .entry__language-title p{
     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 13px;
+    line-height: 15px;
+}
+
+.entry_language-button{
+    margin: 19px 23px 19px 24px;
+    background-color: black;
+    width: 120px;
+    height: 4vh;
+    border-radius: 8px;
 }
 
 .entry_language-button p{
+    color: white;
+    padding: 12px 34px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
     line-height: 15px;
-    text-align: center;
-    padding-top: 11px;
-    color: white;
 }
 
-.entry__nav_icon{
-    width: 100%;
-    background-repeat: no-repeat;
+
+.entry__nav{
+    margin-top: 24px;
+    width: 5vw;
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-around;
+    align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Third ======================================================================== */
