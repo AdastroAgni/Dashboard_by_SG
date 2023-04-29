@@ -123,8 +123,7 @@ a{
 .entry__title p{
     font-family: 'Roboto';
 }
-.entry__title{
-}
+
 .entry__user{
     display: flex;
     align-self: flex-end;
@@ -248,7 +247,7 @@ a{
     justify-content: stretch;
 }
 
-.figma_course{
+.figma_course, .Analog-photography_course, .Master-Instagram_course, .Drawing_course, .Photoshop_course{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -256,10 +255,12 @@ a{
     width: 30vw;
     height: 8vh;
     background: #F5F5F7;
-    border-radius: 14px;    
+    border-radius: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
 }
 
-.figma_course h3{
+.list__courses h3{
     font-family: 'Baloo Bhai';
     font-style: normal;
     font-weight: 400;
@@ -267,7 +268,7 @@ a{
     line-height: 26px;
 }
 
-.figma_course p{
+.list__courses p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -275,8 +276,22 @@ a{
     line-height: 15px;
 }
 
+.course__icon{
+    margin-left: 8px;
+}
 
+.course__button{
+    border: 2px solid #0C0B0B;
+    border-radius: 8px;  
+    width: 120px;
+    height: 4vh;
+    margin-right: 23px;
+}
 
+.course__button p{
+    color: #0C0B0B;
+    margin: 12px 22px;
+}
 
 
 
