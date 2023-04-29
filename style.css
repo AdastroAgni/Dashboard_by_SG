@@ -5,7 +5,6 @@
 }
 
 
-
 .main{
     display: flex;
     justify-content: space-between;
@@ -204,7 +203,7 @@ a{
 /* main_block__courses */
 .main_block__courses{
     margin-top: 30px;
-    background-color: violet;
+
 }
 
 .main_block__courses h2{
@@ -243,9 +242,38 @@ a{
     opacity: 1;
 }
 
+.list__courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
 
+.figma_course{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    height: 8vh;
+    background: #F5F5F7;
+    border-radius: 14px;    
+}
 
+.figma_course h3{
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
 
+.figma_course p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+}
 
 
 
