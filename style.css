@@ -201,12 +201,47 @@ a{
     align-items: center;
 }
 
+/* main_block__courses */
+.main_block__courses{
+    margin-top: 30px;
+    background-color: violet;
+}
+
+.main_block__courses h2{
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.line_block__courses{
+    display: flex;      
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
 
+.line_block__courses .title_courses{
+    margin-right: 30px;
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0C0B0B;
+    opacity: 0.3;
+}
 
-
-
-
+.line_block__courses .title_active{
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0C0B0B;
+    opacity: 1;
+}
 
 
 
