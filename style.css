@@ -303,8 +303,137 @@ a{
 .aside{
     width: 50vw;
     height: 100%;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ahead__black{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    height: 5vh;
+    
+}
+.search{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+.notification{
+    width: 100%;
+    background-image: url(./img/notification.svg);
+    background-repeat: no-repeat;
+}
+.user__avatar{
+    width: 100%;
+    background-image: url(./img/avatar.png);
+    background-repeat: no-repeat;
+    
+}
+
+._second__black{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+._courses__completed{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    width: 208px;
+    height: 96.33px;
+    border-radius: 14px;
+    background: #F5F5F7;
+}
+
+._courses__in-progress{
+    display: flex;
+    justify-content: center;
+    width: 208px;
+    height: 96.33px;
+    border-radius: 14px;
+    background: #F5F5F7;
 }
 
 
 
+._courses__completed h2{
+    font-family: 'Baloo Bhai';
+    margin-right: 11px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 102px;
+}
+
+._courses__completed p{
+    display: flex;
+    align-self: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+}
+
+._courses__in-progress h2{
+    font-family: 'Baloo Bhai';
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 102px;
+}
+._courses__in-progress p{
+    display: flex;
+    align-self: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;   
+}
+
+
+._statistics{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+._main__title_statistics h2{
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;    
+}
+
+._properties__statistics{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+._properties__main_title h3{
+    color: #0C0B0B;
+    margin-right: 30px;
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;   
+}
+
+._properties__second_title h3{
+    color: #0C0B0B;
+    margin-right: 127px;
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.3;
+}
