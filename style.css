@@ -442,6 +442,8 @@ a{
 ._go__premium{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     width: 440px;
     height: 193px;
     background-color: #F5F5F7;
@@ -476,6 +478,7 @@ a{
 }
 
 .buttom__go_premium{
+    margin-top: 24px;
     color: white;
     padding-top: 12px;
     width: 120px;
