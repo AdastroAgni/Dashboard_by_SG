@@ -401,6 +401,7 @@ a{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 ._main__title_statistics h2{
@@ -436,4 +437,55 @@ a{
     font-size: 16px;
     line-height: 26px;
     opacity: 0.3;
+}
+
+._go__premium{
+    display: flex;
+    flex-direction: row;
+    width: 440px;
+    height: 193px;
+    background-color: #F5F5F7;
+    border-radius: 14px;    
+}
+
+.brain{
+    align-self: center;
+    width: 125px;
+}
+
+._main__title_premium{
+    display: flex;
+    flex-direction: column;
+}
+
+._main__title_premium h2{
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;   
+}
+
+.unlock_premium p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.buttom__go_premium{
+    color: white;
+    padding-top: 12px;
+    width: 120px;
+    height: 40px;
+    background-color: #0C0B0B;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
 }
